@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jenis-jenis Bencana Alam di Indonesia - SIGAP ALAM">
+    <title>Jenis Bencana - SIGAP ALAM</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-icon">SA</div>
+                SIGAP ALAM
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="jenis-bencana.html">Jenis Bencana</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#artikel">Artikel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Demo Role
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">User</a></li>
+                            <li><a class="dropdown-item" href="dashboard-contributor.html">Kontributor</a></li>
+                            <li><a class="dropdown-item" href="dashboard-admin.html">Admin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-custom">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">
+                            <i class="bi bi-house-door me-1"></i>
+                            Beranda
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Jenis Bencana</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <section class="hero-section">
+        <div class="container text-center hero-content">
+            <div class="hero-badge">📚 Katalog Bencana</div>
+            <h1 class="hero-title">Jenis-Jenis Bencana Alam</h1>
+            <p class="hero-subtitle" style="max-width: 700px; margin: 0 auto;">
+                Kenali berbagai jenis bencana alam yang sering terjadi di Indonesia. 
+                Pahami karakteristik, dampak, dan cara menghadapi setiap jenis bencana.
+            </p>
+        </div>
+    </section>
+
+    <!-- Disaster Grid -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Banjir -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #3b82f6, #06b6d4); border-radius: 1rem;">
+                            <i class="bi bi-droplet-fill text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Banjir</h3>
+                        <p class="text-muted small mb-3">
+                            Banjir adalah peristiwa tergenangnya daratan oleh air dalam jumlah besar. Pelajari cara pencegahan dan mitigasi banjir.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                15 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gempa Bumi -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom animate-delay-1">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #f97316, #fbbf24); border-radius: 1rem;">
+                            <i class="bi bi-exclamation-triangle-fill text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Gempa Bumi</h3>
+                        <p class="text-muted small mb-3">
+                            Gempa bumi adalah getaran atau guncangan yang terjadi di permukaan bumi akibat pelepasan energi dari dalam secara tiba-tiba.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                12 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tsunami -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom animate-delay-2">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #06b6d4, #3b82f6); border-radius: 1rem;">
+                            <i class="bi bi-water text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Tsunami</h3>
+                        <p class="text-muted small mb-3">
+                            Tsunami adalah gelombang laut yang sangat besar yang disebabkan oleh gangguan di dasar laut seperti gempa atau letusan gunung api.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                8 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kebakaran Hutan -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom animate-delay-3">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #ef4444, #f97316); border-radius: 1rem;">
+                            <i class="bi bi-fire text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Kebakaran Hutan</h3>
+                        <p class="text-muted small mb-3">
+                            Kebakaran hutan dan lahan adalah bencana yang merusak ekosistem dan menghasilkan polusi udara berbahaya.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                10 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tanah Longsor -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #eab308, #f97316); border-radius: 1rem;">
+                            <i class="bi bi-triangle-fill text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Tanah Longsor</h3>
+                        <p class="text-muted small mb-3">
+                            Tanah longsor adalah perpindahan material pembentuk lereng berupa batuan, bahan rombakan, tanah, atau material campuran.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                11 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Badai -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom animate-delay-1">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #6b7280, #94a3b8); border-radius: 1rem;">
+                            <i class="bi bi-wind text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Badai dan Angin Topan</h3>
+                        <p class="text-muted small mb-3">
+                            Badai adalah gangguan atmosfer yang ditandai dengan angin kencang, hujan deras, petir, dan kondisi cuaca ekstrem lainnya.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                9 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kekeringan -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom animate-delay-2">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #eab308, #f97316); border-radius: 1rem;">
+                            <i class="bi bi-cloud-drizzle text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Kekeringan</h3>
+                        <p class="text-muted small mb-3">
+                            Kekeringan adalah kondisi kekurangan pasokan air dalam waktu yang cukup lama akibat curah hujan di bawah normal.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                7 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gunung Meletus -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-custom animate-delay-3">
+                        <div class="text-center mb-4" style="padding: 2.5rem; background: linear-gradient(135deg, #a855f7, #ec4899); border-radius: 1rem;">
+                            <i class="bi bi-lightning-fill text-white" style="font-size: 4rem;"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Gunung Meletus</h3>
+                        <p class="text-muted small mb-3">
+                            Letusan gunung berapi adalah peristiwa keluarnya magma, abu vulkanik, dan gas dari dalam bumi melalui gunung berapi.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                            <small class="text-muted">
+                                <i class="bi bi-check-circle text-success me-1"></i>
+                                13 Artikel
+                            </small>
+                            <a href="#" class="text-success small fw-semibold">
+                                Detail <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="py-5 bg-gradient-card">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold mb-3">Mengapa Penting Memahami Jenis Bencana?</h2>
+                <p class="lead text-muted">Pengetahuan adalah kunci kesiapsiagaan</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card-custom">
+                        <div class="card-icon gradient-green">
+                            <span class="text-white fw-bold" style="font-size: 1.5rem;">1</span>
+                        </div>
+                        <h3 class="h5 mb-3">Kesiapsiagaan</h3>
+                        <p class="text-muted">
+                            Memahami jenis bencana membantu kita lebih siap dan tahu apa yang harus dilakukan saat bencana terjadi.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card-custom animate-delay-1">
+                        <div class="card-icon gradient-blue">
+                            <span class="text-white fw-bold" style="font-size: 1.5rem;">2</span>
+                        </div>
+                        <h3 class="h5 mb-3">Mitigasi</h3>
+                        <p class="text-muted">
+                            Dengan pengetahuan yang tepat, kita dapat melakukan upaya pencegahan dan mengurangi dampak bencana.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card-custom animate-delay-2">
+                        <div class="card-icon gradient-green">
+                            <span class="text-white fw-bold" style="font-size: 1.5rem;">3</span>
+                        </div>
+                        <h3 class="h5 mb-3">Keselamatan</h3>
+                        <p class="text-muted">
+                            Pengetahuan tentang bencana dapat menyelamatkan nyawa Anda dan keluarga saat situasi darurat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">SIGAP ALAM</h5>
+                    <p>Platform edukasi lingkungan dan kesadaran bencana untuk masyarakat Indonesia.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Beranda</a></li>
+                        <li class="mb-2"><a href="jenis-bencana.html">Jenis Bencana</a></li>
+                        <li class="mb-2"><a href="index.html#artikel">Artikel</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">Kontak</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="bi bi-envelope me-2"></i>
+                            info@sigapalam.com
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-phone me-2"></i>
+                            +62 21 1234 5678
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2025 SIGAP ALAM. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
