@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="col-lg-6 d-none d-lg-block">
-                <img src="https://images.unsplash.com/photo-1591302299935-2ce91947afc1?w=800&q=80"
+                <img src="https://cdn.betahita.id/9/4/8/9/9489_840x576.jpg"
                     alt="Environmental Education" class="img-fluid hero-image">
             </div>
         </div>

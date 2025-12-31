@@ -120,8 +120,6 @@
 
                         <form action="{{ route('artikel.comment.store', $article->id) }}" method="POST">
                             @csrf
-
-                            @guest
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <input type="text" name="name" class="form-control mb-3" placeholder="Nama"
@@ -132,7 +130,6 @@
                                             required>
                                     </div>
                                 </div>
-                            @endguest
 
                             <textarea name="comment" rows="4" class="form-control mb-3" placeholder="Tulis komentar..." required></textarea>
                             <input type="hidden" name="article_id" value="{{ $article->id }}">

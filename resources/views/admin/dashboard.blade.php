@@ -322,11 +322,6 @@
                 <div class="chart-card">
                     <div class="d-flex justify-content-between align-items-center mb-4">
                         <h3 class="h5 mb-0">Statistik Artikel</h3>
-                        <select class="form-select form-select-sm" style="width: auto;">
-                            <option>7 Hari Terakhir</option>
-                            <option>30 Hari Terakhir</option>
-                            <option>3 Bulan Terakhir</option>
-                        </select>
                     </div>
                     <canvas id="articleChart" height="100"></canvas>
                 </div>
